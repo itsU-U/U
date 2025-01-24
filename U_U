@@ -165,7 +165,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Resturaunt Tycoon 2",
    Callback = function()
-   
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/iz037/Zeld-Hub/main/Script/Restaurant%20Tycoon%202.lua'))()
    end,
 })
 

@@ -87,11 +87,6 @@ local Button = Tab:CreateButton({
                 if sound:IsA("Sound") then
                     sound.Volume = 10
                     sound:Play()
-                end
-            end
-        end
-    end
-})
    end,
 })
 

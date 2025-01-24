@@ -172,13 +172,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "south west florida",
-   Callback = function()
-   
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "natural disaster",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))()

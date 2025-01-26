@@ -146,7 +146,12 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Resturaunt Tycoon 2 instant cook",
    Callback = function()
-   print find it at https://rbxscript.com/post/RestaurantTycoon2NPCInstantCook-cgW7R
+   Rayfield:Notify({
+   Title = "Script coming soon",
+   Content = "Find it at https://rbxscript.com/post/RestaurantTycoon2NPCInstantCook-cgW7R",
+   Duration = 10,
+   Image = "annoyed",
+})
    end,
 })
 

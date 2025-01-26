@@ -207,6 +207,20 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "bloxburg other",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/bloxburg.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "pet sim 99",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/petsimulator99.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "legends of speed other",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/legendsofspeed.lua'))()

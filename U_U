@@ -151,7 +151,6 @@ local Button = Tab:CreateButton({
    Content = "Find it at https://rbxscript.com/post/RestaurantTycoon2NPCInstantCook-cgW7R",
    Duration = 10,
    Image = "annoyed",
-})
    end,
 })
 
@@ -198,86 +197,86 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "zombie attack (SOON)",
+   Name = "zombie attack",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/zombieattack.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/zombieattack.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "adopt me",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/adoptme.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/adoptme.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "3008 other",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/3008.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/3008.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "legends of speed other",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/legendsofspeed.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/legendsofspeed.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "hide and seek other",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/hideandseekextreme.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/hideandseekextreme.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "pizza place other",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/workatapizzaplace.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/workatapizzaplace.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "tower of hell",
    Callback = function()
-   
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/towerofhell.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "super simon says",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/supersimonsays.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/supersimonsays.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "mm2",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/murdermystery2.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/murdermystery2.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "brookhaven",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/brookhavenrp.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/brookhavenrp.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "doors",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/doors.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/doors.lua'))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "blade ball",
    Callback = function()
-   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/bladeball.lua
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/bladeball.lua'))()
    end,
 })
 

@@ -53,7 +53,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Walk on Walls",
    Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/geUZHr7B"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/itsU-U/U/refs/heads/main/Walkonwalls"))()
    end,
 })
 
@@ -95,6 +95,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "bloxburg (click get key it doesn't require it)",
+   Callback = function()
+   loadstring(game:HttpGet('https://luxhub.cc/script.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Hide and seek extreme",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Hide%20And%20Seek%20Extreme'))()
@@ -116,23 +123,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Fling things and ppl free ban",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "kitty cat DOORS",
+   Name = "kitty cat DOORS (doesn't do much)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CatEnddroid/Kitty-Cats-Doors-Beta/refs/heads/main/hub.lua"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Vehicle legends",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Aaron999S/FiberHub/main/Main"))()
    end,
 })
 
@@ -151,6 +144,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Resturaunt Tycoon 2 instant cook",
+   Callback = function()
+   print find it at https://rbxscript.com/post/RestaurantTycoon2NPCInstantCook-cgW7R
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "3008",
    Callback = function()
    loadstring(game:HttpGet'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/SCP3008.py')()
@@ -165,9 +165,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "world zero(key?)",
+   Name = "Lumber tycoon other",
    Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fda523d8de77cd09a853c1459bc43952.lua"))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
    end,
 })
 
@@ -179,13 +179,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "piggy",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua'))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "funky friday",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
@@ -193,23 +186,93 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "bloxburg",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/JonnyCheeser/rbw4/main/JonnyCheeseHub"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "duck army",
+   Name = "duck army (not tested)",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EnchantedHub/Enchanted.github.io/refs/heads/main/DuckArmy!Script', true))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "zombie attack",
+   Name = "zombie attack (SOON)",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-Attack-Remake/main/Projeto%20LKA"))();
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/zombieattack.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "adopt me",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/adoptme.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "3008 other",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/3008.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "legends of speed other",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/legendsofspeed.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "hide and seek other",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/hideandseekextreme.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "pizza place other",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/workatapizzaplace.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "tower of hell",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "super simon says",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/supersimonsays.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "mm2",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/murdermystery2.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "brookhaven",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/brookhavenrp.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "doors",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/doors.lua
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "blade ball",
+   Callback = function()
+   https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/refs/heads/main/games/bladeball.lua
    end,
 })
 

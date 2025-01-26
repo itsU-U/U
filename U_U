@@ -144,17 +144,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Resturaunt Tycoon 2 instant cook",
-   Callback = function()
-   Rayfield:Notify({
-   Title = "Script coming soon",
-   Content = "Find it at https://rbxscript.com/post/RestaurantTycoon2NPCInstantCook-cgW7R",
-   Duration = 10,
-   Image = "annoyed",
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "3008",
    Callback = function()
    loadstring(game:HttpGet'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/SCP3008.py')()

@@ -71,6 +71,35 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Super ring parts (use on alt, chats script name when used)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukashub-coder/super-ring/refs/heads/main/Super%20ring!!"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "unlock 1st person",
+   Callback = function()
+   game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = 99999
+   game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.Classic
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "copy game",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sashkandro/RobloxUniversalGameCopier/main/Script",true))();
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Flashback",
+   Callback = function()
+   loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+   end,
+})
+
 local Tab = Window:CreateTab("Games", "gamepad-2")
 
 local Button = Tab:CreateButton({
@@ -229,16 +258,16 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "brookhaven",
+   Name = "petsim 99",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/RFRR1CH4RD/Loader/main/Salvatore.lua"))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SlamminPig/6FootScripts/main/Scripts/PetSimulator99.lua'))();
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "brookhaven 2",
+   Name = "fling things and people",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/Trev0rZ/LoaderM/refs/heads/main/ImperiaHub-lWorking.lua'))()
+   loadstring(game:HttpGet(("https://pastebin.com/raw/Skn3Aa1Q"), true))()
    end,
 })
 

@@ -121,6 +121,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "fake vr",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontnt.com/0Ben1/fe./main/Wow%202'))()
+   end,
+})
+
 local Tab = Window:CreateTab("Games", "gamepad-2")
 
 local Button = Tab:CreateButton({
@@ -317,6 +324,13 @@ local Button = Tab:CreateButton({
    Name = "vehicle legends",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/main/Vehicle%20legends"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "be a silly seal (might be broken)",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua"))()
    end,
 })
 

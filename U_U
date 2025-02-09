@@ -152,6 +152,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Auto farm/build babft",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/Jan25_Source.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "bloxburg (click get key it doesn't require it)",
    Callback = function()
    loadstring(game:HttpGet('https://luxhub.cc/script.lua'))()
